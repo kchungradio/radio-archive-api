@@ -1,0 +1,11 @@
+{
+  "name": "kchung-radio-archive-api",
+  "alias": "kchung-radio-archive-api.now.sh",
+  "env": {
+    "PGHOST": "@kchung-pg-host",
+    "PGPORT": "5432",
+    "PGDATABASE": "kchung",
+    "PGUSER": "archive_api",
+    "PGPASSWORD": "@kchung-radio-archive-pg-password"
+  }
+}
